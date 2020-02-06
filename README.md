@@ -12,12 +12,12 @@ Therefore our main focus was to program a light-weight library to determine a id
 >### Run the following  to install:
 + using pip
 ```
-pip install fatick-stemmer
+pip install bangla_stemmer
 ```
 + using git
 ```
-git clone https://github.com/Fatick-DevStudio/fatick-stemmer.git
-cd fatick-stemmer
+git clone https://github.com/Fatick-DevStudio/Bangla-stemmer.git
+cd Bangla-stemmer
 python setup.py install
 ```
 

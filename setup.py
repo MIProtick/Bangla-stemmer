@@ -8,8 +8,8 @@ def readme():
 
 setup(
     name="fatick-stemmer",
-    version="1.0.0",
-    description="A Python package to get stem of any inflected words.",
+    version="1.0",
+    description="A Python package to get stem of any inflected Bangla words.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/Fatick-DevStudio/fatick-stemmer",

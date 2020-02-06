@@ -23,7 +23,7 @@ python setup.py install
 
 ## Usages
 
-> #####Example 01:
+> __Example 01__:
 
 >```python
 >from bangla_stemmer.stemmer import stemmer
@@ -36,7 +36,7 @@ python setup.py install
 
 <!-- -->
 
->#####Example 01:
+> __Example 01__:
 >```python
 >from bangla_stemmer.stemmer.stemmer import BanglaStemmer
 >word = 'কবিরগুলিকে'

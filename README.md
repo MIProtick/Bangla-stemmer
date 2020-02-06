@@ -37,6 +37,7 @@ python setup.py install
 <!-- -->
 
 > __Example 01__:
+
 >```python
 >from bangla_stemmer.stemmer.stemmer import BanglaStemmer
 >word = 'কবিরগুলিকে'

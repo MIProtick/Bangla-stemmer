@@ -25,5 +25,5 @@ setup(
     ],
     packages=["bangla_stemmer"],
     include_package_data=True,
-    keywords=('bengali', 'bangla', 'stemmer', 'bengali stemmer')
+    keywords=('bengali', 'bangla', 'stemmer', 'bengali stemmer', 'bangla stemmer')
 )

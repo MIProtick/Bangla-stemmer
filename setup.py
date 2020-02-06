@@ -7,12 +7,12 @@ def readme():
 
 
 setup(
-    name="fatick-stemmer",
+    name="Bangla-stemmer",
     version="1.0",
     description="A Python package to get stem of any inflected Bangla words.",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Fatick-DevStudio/fatick-stemmer",
+    url="https://github.com/Fatick-DevStudio/Bangla-stemmer",
     author="Mezbaul Islam Protick",
     author_email="mezbaulislamprotick@gmail.com",
     license="Apache 2.0",
@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["fatick_stemmer"],
+    packages=["bangla_stemmer"],
     include_package_data=True,
     keywords=('bengali', 'bangla', 'stemmer', 'bengali stemmer')
 )

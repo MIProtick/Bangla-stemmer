@@ -29,7 +29,7 @@ python setup.py install
 >from bangla_stemmer.stemmer import stemmer
 >wordlist = ['কবিরগুলিকে', 'আমাকে', 'নামাবার']
 >stmr = stemmer.BanglaStemmer()
->stm = stmr.stem(word)
+>stm = stmr.stem(wordlist)
 >print(stm)
 >```
 >`output:  ['কবির', 'আমা', 'নামা']`
@@ -44,7 +44,7 @@ python setup.py install
 >stm = BanglaStemmer().stem(word)
 >print(stm)
 >```
->`output:  ['কবির', 'আমা', 'নামা']`
+>`output:  'কবির'`
 
 ## Grammar Rule
 The grammar rules applied here are based on the algorithm of [*Rafi Kamal*](https://github.com/rafi-kamal/Bangla-Stemmer). However some major and required modification has been made in this library in order to make it compatible with any model.

@@ -51,7 +51,7 @@ class BanglaStemmer:
         for rules in self.fourth_dict:
             result = re.search(rules, word)
             if result:
-                print('applied fourth rules..')
+#                 print('applied fourth rules..')
                 initial_index = result.span()[0]
                 final_index = result.span()[1]
                 wordlen = len(word)
@@ -83,7 +83,7 @@ class BanglaStemmer:
         for rules in self.third_dict:
             result = re.search(rules, word)
             if result:
-                print('applied third rules..')
+#                 print('applied third rules..')
                 initial_index = result.span()[0]
                 final_index = result.span()[1]
                 wordlen = len(word)
@@ -116,7 +116,7 @@ class BanglaStemmer:
         for rules in self.second_dict:
             result = re.search(rules, word)
             if result:
-                print('applied second rules..')
+#                 print('applied second rules..')
                 initial_index = result.span()[0]
                 final_index = result.span()[1]
                 wordlen = len(word)
@@ -149,7 +149,7 @@ class BanglaStemmer:
         for rules in self.first_dict:
             result = re.search(rules, word)
             if result:
-                print('applied first rules..')
+#                 print('applied first rules..')
                 initial_index = result.span()[0]
                 final_index = result.span()[1]
                 wordlen = len(word)
